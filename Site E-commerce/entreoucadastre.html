@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='entreoucadastre.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">VITRINE VIRTUAL</a><i class="fas fa-home"></i>
+            </div>
+            <ul class="menu">
+                <li><a href="entreoucadastre.html">Entre ou Cadastre</a></li><i class="fas fa-user"></i>
+                <li><a href="contato.html">Contato</a></li><i class="fas fa-headset"></i>
+                <li><a href="carrinho.html">Carrinho</a></li><i class="fas fa-shopping-cart"></i>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Bem-vindo!</h1>
+        <p>Entre em sua conta ou cadastre-se para começar.</p>
+        <div class="forms">
+            <div class="form-container">
+                <h2>Entrar</h2>
+                <form action="login.html" method="post">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="email" placeholder="Digite seu email" required>
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" name="password" placeholder="Digite sua senha" required>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+            <div class="form-container">
+                <h2>Cadastrar</h2>
+                <form action="cadastro.html" method="post">
+                    <label for="signup-name">Nome</label>
+                    <input type="text" id="signup-name" name="name" placeholder="Digite seu nome" required>
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" name="email" placeholder="Digite seu email" required>
+                    <label for="signup-password">Senha</label>
+                    <input type="password" id="signup-password" name="password" placeholder="Digite sua senha" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
